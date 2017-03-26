@@ -1,0 +1,15 @@
+    //data types
+        //integer
+            var userAge = 21 + "<br>";
+            document.write(userAge);
+        //float (or real number)
+            var bookPrice = 39.95 + "<br>";
+            document.write(bookPrice);
+        //string
+            var userName = "David<br>";
+            document.write(userName);
+            var status = "Bob said \"JoeyJoJo Shabadoo\"<br>";
+            //or "Bob said 'JoeyJoJo Shabadoo'<br>"
+            document.write(status);
+            document.write("Yep<br>");
+        //boolean: only true or false (ex. check userAge over 21)  
