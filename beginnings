@@ -1,0 +1,58 @@
+<script type="text/javascript">
+        /*document.write:
+        prints out the words in the bracket
+        */
+        //<br> adds a line break
+            document.write("Hello World <br>");
+            document.write("Good Bye World <br>");
+        /*declaring a variable (identifier)
+        and assignment operator (=)*/
+            var superFun = 20 + "<br>";
+            document.write(superFun);
+            var check = "Check";
+    //data types
+        //integer
+            var userAge = 21 + "<br>";
+            document.write(userAge);
+        //float (or real number)
+            var bookPrice = 39.95 + "<br>";
+            document.write(bookPrice);
+        //string
+            var userName = "David<br>";
+            document.write(userName);
+            var status = "Bob said \"JoeyJoJo Shabadoo\"<br>";
+            //or "Bob said 'JoeyJoJo Shabadoo'<br>"
+            document.write(status);
+            document.write("Yep<br>");
+        //boolean: only true or false (ex. check userAge over 21)  
+    //operators: +-*/%
+            var apples = 5;
+            var pie = 3;
+            var applepie = apples + pie;
+            applepie--;
+            document.write(applepie);
+            document.write("<br>");
+        //assignemnt operators: = and +=
+            apples += pie; //instead of creating the new var "applepie"
+            document.write(apples);
+            document.write("<br>");
+            apples *= pie;
+            document.write(apples);
+    //strings
+            var name = "'David'";
+            document.write("<br>");
+            var subscriber_message = "David said \"Thanks to all my subscribers!\""
+            document.write(subscriber_message);
+            document.write("<br>");
+        //string concatenation
+            var sentence1 = "My name is David; ";
+            var sentence2 = "I am 36 years old."
+            //or doc.write(sentence 1 + sentence2);
+            var combine_sentences = sentence1 + sentence2;
+            document.write(combine_sentences);
+            document.write("<br>");
+        //string concatenation with numbers
+            var age = 12
+            document.write("Hello, you are "+ age + " years old.");
+        //elements inside string
+            document.write("<h1>Hello World</h1>");
